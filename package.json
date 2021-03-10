@@ -1,0 +1,22 @@
+{
+  "name": "toast-api-wrapper",
+  "version": "1.0.0",
+  "description": "Public API Wrapper for NHN Cloud",
+  "main": "./lib/main.js",
+  "bin": {
+    "toastapi": "./bin/toastapi.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hojin.yu@nhn.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "node-powershell": "^4.0.0",
+    "uuid": "^8.1.0"
+  }
+}
